@@ -5,8 +5,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import figure
 from datetime import datetime
-#from matplotlib.dates import DateFormatter
-#import matplotlib.dates as mdates
+from matplotlib.dates import DateFormatter
+import matplotlib.dates as mdates
 import numpy as np
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
